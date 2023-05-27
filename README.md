@@ -15,7 +15,7 @@
 7. Authors
 
 ## 1. Description
-The research will gather detailed medical information from stroke sufferers' medical records. The collected data will be examined, and machine learning models will be constructed to discover which parameters (gender, age, blood pressure, etc.) have the greatest influence on stroke risk. The study will contain a correlation between each feature and the objective outcome (stroke or stroke). The effort will benefit physicians, clinical research, and public health by advancing stroke intervention and prevention. Pandas, maplotlib, and SQL will be utilized to visualize the impact forecast.
+This repository contains a Python-based data science project aimed at predicting stroke events based on various clinical and lifestyle indicators. The project follows a comprehensive data science pipeline, starting from data preprocessing and culminating in machine learning model training, evaluation, and stroke predictions.
 
 ## 2. Data
 
