@@ -12,7 +12,7 @@
    - Final Model Training and Predictions
 5. Model Evaluation
 6. Usage
-7. License and Contribution
+7. Authors
 
 ## 1. Description
 The research will gather detailed medical information from stroke sufferers' medical records. The collected data will be examined, and machine learning models will be constructed to discover which parameters (gender, age, blood pressure, etc.) have the greatest influence on stroke risk. The study will contain a correlation between each feature and the objective outcome (stroke or stroke). The effort will benefit physicians, clinical research, and public health by advancing stroke intervention and prevention. Pandas, maplotlib, and SQL will be utilized to visualize the impact forecast.
@@ -78,7 +78,7 @@ To use this project:
 
 ` using a Python interpreter.
 
-## 7. TEAM
+## 7. Authors
 Qatrlnada Almrzoq 1900678
 
 Malik Alghossein 2101410
