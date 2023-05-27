@@ -31,7 +31,7 @@ Together, these datasets offer a comprehensive set of data points for stroke pre
 
 The repository includes several important files:
 
-- `stroke_prediction.py`: The primary Python script of the project handling data preprocessing, model training, evaluation, and final stroke predictions.
+- `Stroke-prediction.ipynb`: The primary Python script of the project handling data preprocessing, model training, evaluation, and final stroke predictions.
 
 - `train.csv` and `healthcare-dataset-stroke-data.csv`: CSV files containing the datasets used in the project.
 
