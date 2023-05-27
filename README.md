@@ -79,8 +79,8 @@ To use this project:
 ` using a Python interpreter.
 
 ## 7. Authors
-Qatrlnada Almrzoq 1900678
+Qatrlnada Almrzoq 
 
-Malik Alghossein 2101410
+Malik Alghossein
 
-Abdullah A.A Mahmoud 2104576
+Abdullah A.A Mahmoud
