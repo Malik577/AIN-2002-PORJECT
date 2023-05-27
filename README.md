@@ -9,8 +9,6 @@
    - Data Preprocessing
    - Exploratory Data Analysis & Data Visualization
    - Model Training
-   - Bootstrap Analysis
-   - Feature Generation
    - Final Model Training and Predictions
 5. Model Evaluation
 6. Usage
@@ -59,12 +57,6 @@ Various bar plots, histograms, correlation heatmaps, and box plots are generated
 ### Model Training
 A logistic regression model is trained using Stratified K-Fold cross-validation. The model is evaluated using ROC AUC score and Mean Squared Error (MSE) metrics on both the training and validation sets.
 
-### Bootstrap Analysis
-Bootstrap resampling is employed to estimate confidence intervals for the AUC score.
-
-### Feature Generation
-New features are generated, which might potentially enhance the model performance. The model is then retrained using these new features.
-
 ### Final Model Training and Predictions
 The logistic regression model is retrained on the full dataset. The model's predictions are saved into 'submission_1.csv'.
 
@@ -86,6 +78,9 @@ To use this project:
 
 ` using a Python interpreter.
 
-## 7. License and Contribution
+## 7. TEAM
+Qatrlnada Almrzoq 1900678
 
-This project is licensed under the MIT License. Contributions and suggestions for improvement are welcome. Feel free to clone the repository, make your changes, and submit a pull request.
+Malik Alghossein 2101410
+
+Abdullah A.A Mahmoud 2104576
