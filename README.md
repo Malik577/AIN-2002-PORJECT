@@ -1,6 +1,6 @@
 <p align="center">
 <br/>
-<img src="https://i.imgur.com/JpALNc4.jpg" height="65%" width="65%" alt="brain"/>
+
 <br />
 
 # Stroke Prediction Modeling
