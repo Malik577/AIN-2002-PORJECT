@@ -1,61 +1,56 @@
-![banner](img/banner.png)
+Stroke Prediction
 
-## 1.Introduction:
-This project utilizes real-world and synthetic datasets to predict stroke events by analyzing clinical features. The aim is to determine the most key risk factors for strokes by investigating parameters like gender, age, hypertension, heart disease, and lifestyle choices.
-## 2.Requirements
+By
+Qatrlnada Almrzoq 1900678
+Malik Alghossein 2101410
+Abdullah A.A Mahmoud 2104576
 
-To install requirements:
+This project focuses on predicting stroke events by analyzing clinical features using real-world and synthetic datasets. The goal is to identify key risk factors for strokes by examining parameters such as gender, age, hypertension, heart disease, and lifestyle choices.
 
-```setup
+Requirements
+To install the required packages, run the following command:
+
+Copy code
 pip install -r requirements.txt
-```
+Data
+Data Source
+Dataset: Stroke Prediction Dataset from Kaggle website
+Kaggle Dataset 1
+Kaggle Dataset 2
+The dataset contains the following columns:
+
+id: Patient ID
+gender: "Male", "Female" or "Other"
+age: Patient's age
+hypertension: 0 if the patient does not have hypertension, 1 if the patient has hypertension
+heart_disease: 0 if the patient does not have heart disease, 1 if the patient has heart disease
+ever_married: "No" or "Yes"
+work_type: "children", "Govt_job", "Never_worked", "Private" or "Self-employed"
+Residence_type: "Rural" or "Urban"
+avg_glucose_level: Average blood sugar level
+bmi: Body mass index
+smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"
+Data Cleaning
+In this project, data cleaning is performed to ensure the dataset is ready for analysis. Missing values in the 'bmi' column are filled with the mean values calculated separately for cases with and without strokes.
+
+Encoding the Variables
+To work with categorical variables for further analysis, data encoding is performed. Categorical variables are converted into numerical format using the factorize function, enhancing the dataset's relevance for modeling.
+
+Data Analysis
+Correlation analysis is conducted to examine the relationships between variables.
+
+Training
+Six different machine learning models from the scikit-learn library are used for training:
+
+GradientBoostingClassifier
+SVC
+LogisticRegression
+DecisionTreeClassifier
+Xgboost
+RandomForestClassifier
+Regressor models are also tested to understand their performance, although they are not suitable for binary classification problems since they are used for continuous variables.
+
+Results
+The results of the trained models are not provided in the given information. Please refer to the project's report or documentation for detailed results and performance metrics.
 
 
-## 3.Data
-### Data Source
-**Dataset:**: 
-Stroke Prediction Dataset from Kaggle website\
-[Kaggle Dataset 1](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)\
-[Kaggle Dataset 2](https://www.kaggle.com/competitions/playground-series-s3e2/data)
-1) id: Patient ID 
-2) gender: "Male", "Female" or "Other"  
-3) age: patient age  
-4) hypertension: 0 if the patient does not have hypertension, 1 if the patient does not have hypertension  
-5) heart_disease: 0 if the patient does not have heart disease, 1 if the patient has heart disease
-6) ever_married: "No" or "Yes" 
-7) work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"  
-8) Residence_type: "Rural" or "Urban"  
-9) avg_glucose_level: average blood sugar  
-10) bmi: body mass index
-11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"
-### Data Cleaning
-In this project, we perform data cleaning to ensure the dataset is ready for analysis.\
-Missing values in the ’bmi’ column was filled with the
-mean values which are calculated separately for the cases with and without strokes.
-### Encoding the Variables
-To work with categorical variables for further analysis, data encoding was used. Converting categorical
-variables into numerical format using the factorize function, enhances the datasets’ relevance for
-modelling. 
-### Data Analysis
-![cor](img/correlation1.jpg)
-
-## 4.Training
-From a Python library which is scikit-learn we used 6 different machine learning models. \
-**`GradientBoostingClassifier`**,**`SVC`**, **`LogisticRegression`**,**`DecisionTreeClassifier`** , **`Xgboost`** , and **`RandomForestClassifier`** . \
-We also used regressor models just to see how they worked. Regressor models are not decent options to use in binary classification problems.\
-Because regressor models used in continuous variables.
-## 5.Results
-
-Our model achieves the following performance:
-
-|Classification algorithm|	Accuracy | Accuracy with hyperparameter tuning|
-|------------------------|----------|:----------:|
-|GradientBoostingClassifier	|	83.73%|	83.73%|
-|LogisticRegression|	79.20%	|79.47%|
-|RandomForestClassifier	|99.32%| 99.32%	|
-|SVC |79.58%|	|
-|DecisionTreeClassifier|	98.00%	| 98.16% |
-|XGBClassifier	| 95.16% |
-
-
-![roc](img/roccurve.jpg)
